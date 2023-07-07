@@ -89,3 +89,7 @@
 .slick-slider .slick-slide span {
   font-weight: bold;
 }
+
+.bookcard img {
+  max-width: 100%;
+}

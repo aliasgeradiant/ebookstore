@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom'
 import BookCard from '../components/BookCard';
 import { useSelector } from 'react-redux';
@@ -12,15 +12,17 @@ const Category = () => {
 
   return (
     <>
-      <Row>
-        {
-          data.map(item => 
-            <Col lg={4} key={item.id}>
-              <BookCard image={item.image} author={item.author} title={item.title} price={item.} />
-            </Col>  
-          )
-        }
-      </Row>
+      <Container>
+        <Row>
+          {
+            data.map(item => 
+              <Col lg={4} key={item.id}>
+                <BookCard image={item.image} author={item.author} title={item.title} price={item.price} />
+              </Col>  
+            )
+          }
+        </Row>
+      </Container>
     </>
   )
 }

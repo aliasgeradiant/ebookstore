@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 const Home = () => {
     const response = useSelector((state) => state.products.product);
     const bestseller = response.filter(res => res.category === "bestseller");
-    const action = response.filter(res => res.category === "action");
+    const art = response.filter(res => res.category === "art");
     const horror = response.filter(res => res.category === "horror");
     const fantasy = response.filter(res => res.category === "fantasy");
     const romance = response.filter(res => res.category === "romance");
@@ -21,7 +21,7 @@ const Home = () => {
 
                     <BaseSlider title="Best Sellers" data={bestseller} />
 
-                    <BaseSlider title="Action" data={action} />
+                    <BaseSlider title="Art" data={art} />
                     <BaseSlider title="Horror" data={horror} />
                     <BaseSlider title="Fantasy" data={fantasy} />
                     <BaseSlider title="Romance" data={romance} />

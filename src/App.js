@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import { products } from "./Store/HomeSlice";
 import {getAllProductsHandler} from "./backend/controllers/ProductController"
 import Category from "./pages/CategoryPage";
+import Shop from "./pages/Shop";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category/:category" element={<Category />} />
+        <Route path="/shop" element={<Shop />} />
       </Routes>
     </div>
   );
