@@ -8,7 +8,6 @@ const Category = () => {
   const {category} = useParams();
   const response = useSelector((state) => state.products.product);
   const data = response.filter(item => item.category === category);
-  console.log(data)
 
   return (
     <>

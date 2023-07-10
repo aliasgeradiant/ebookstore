@@ -22,7 +22,7 @@ export const products = [
   },
   {
     id: uuid(),
-    category: 'bestsellers',
+    category: 'bestseller',
     ISBN: 9780552159722,
     title: "Deception point",
     author: "Dan Brown",
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: uuid(),
-    category: 'bestsellers',
+    category: 'bestseller',
     ISBN: 9781409117933,
     title: "A Week in Winter",
     author: "Maeve Binchy",
@@ -92,7 +92,7 @@ export const products = [
   },
   {
     id: uuid(),
-    category: 'bestsellers',
+    category: 'bestseller',
     ISBN: 9789023429258,
     title: "De wereld volgens Garp",
     author: "John Irving",
@@ -152,7 +152,7 @@ export const products = [
     ISBN: 9789044309904,
     title: "Hou je mond!",
     author: "Sophie Kinsella",
-    summary: "Emma heeft, zoals alle jonge vrouwen ter wereld, een paar geheimpjes. Voor haar ouders, haar vriend, haar collega's. Zo werd ze ontmaagd in de logeerkamer terwijl haar ouders een film zaten te kijken en ze vindt haar vriend Connor een beetje op Ken lijken. Die van Barbie en Ken. Ze geeft de plant van haar irritante collega sinaasappelsap - bijna dagelijks - en haar string doet pijn. Emma is altijd nerveus als ze moet vliegen. Daarom vertelt ze al haar geheimen zomaar aan een ardige vreemde man die naast haar in het vliegtuig zit. Tenminste, Emma denkt dat het een vreemde is. Want wanneer ze de volgende dag op haar werk komt... Sophie Kinsella is bestsellerschrijfster en journaliste. Ze woont in Londen. Ze heeft weinig grote geheimen, behalve dat ze niet dol is op vliegen.",
+    summary: "Emma heeft, zoals alle jonge vrouwen ter wereld, een paar geheimpjes. Voor haar ouders, haar vriend, haar collega's. Zo werd ze ontmaagd in de logeerkamer terwijl haar ouders een film zaten te kijken en ze vindt haar vriend Connor een beetje op Ken lijken. Die van Barbie en Ken. Ze geeft de plant van haar irritante collega sinaasappelsap - bijna dagelijks - en haar string doet pijn. Emma is altijd nerveus als ze moet vliegen. Daarom vertelt ze al haar geheimen zomaar aan een ardige vreemde man die naast haar in het vliegtuig zit. Tenminste, Emma denkt dat het een vreemde is. Want wanneer ze de volgende dag op haar werk komt... Sophie Kinsella is bestsellerchrijfster en journaliste. Ze woont in Londen. Ze heeft weinig grote geheimen, behalve dat ze niet dol is op vliegen.",
     image: "http://s.s-bol.com/imgbase0/imagebase/large/FC/8/3/1/6/1001004002056138.jpg",
     price: {
       "currency": "EUR",
