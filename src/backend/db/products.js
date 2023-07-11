@@ -18,6 +18,11 @@ export const products = [
       "currency": "EUR",
       "value": 10,
       "displayValue": "10.00"
+    },
+    review: {
+      current: 2,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -32,6 +37,11 @@ export const products = [
       "currency": "EUR",
       "value": 9.99,
       "displayValue": "9.99"
+    },
+    review: {
+      current: 4,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -46,6 +56,11 @@ export const products = [
       "currency": "EUR",
       "value": 17.5,
       "displayValue": "17.50"
+    },
+    review: {
+      current: 5,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -60,6 +75,11 @@ export const products = [
       "currency": "EUR",
       "value": 24.5,
       "displayValue": "24.50"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -74,6 +94,11 @@ export const products = [
       "currency": "EUR",
       "value": 11.99,
       "displayValue": "11.99"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -88,6 +113,11 @@ export const products = [
       "currency": "EUR",
       "value": 33.8,
       "displayValue": "33.80"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -102,6 +132,11 @@ export const products = [
       "currency": "EUR",
       "value": 19.9,
       "displayValue": "19.90"
+    },
+    review: {
+      current: 1,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -116,6 +151,11 @@ export const products = [
       "currency": "EUR",
       "value": 15,
       "displayValue": "15.00"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -130,6 +170,11 @@ export const products = [
       "currency": "EUR",
       "value": 6.99,
       "displayValue": "6.99"
+    },
+    review: {
+      current: 4,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -144,6 +189,11 @@ export const products = [
       "currency": "EUR",
       "value": 14.95,
       "displayValue": "14.95"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -158,6 +208,11 @@ export const products = [
       "currency": "EUR",
       "value": 10,
       "displayValue": "10.00"
+    },
+    review: {
+      current: 5,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -172,6 +227,11 @@ export const products = [
       "currency": "EUR",
       "value": 19.9,
       "displayValue": "19.90"
+    },
+    review: {
+      current: 1,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -186,6 +246,11 @@ export const products = [
       "currency": "EUR",
       "value": 9.8,
       "displayValue": "9.80"
+    },
+    review: {
+      current: 1,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -200,6 +265,11 @@ export const products = [
       "currency": "EUR",
       "value": 13.8,
       "displayValue": "13.80"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -214,6 +284,11 @@ export const products = [
       "currency": "EUR",
       "value": 14.99,
       "displayValue": "14.99"
+    },
+    review: {
+      current: 2,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -228,6 +303,11 @@ export const products = [
       "currency": "EUR",
       "value": 17.49,
       "displayValue": "17.49"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -242,6 +322,11 @@ export const products = [
       "currency": "EUR",
       "value": 5,
       "displayValue": "5.00"
+    },
+    review: {
+      current: 2,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -256,6 +341,11 @@ export const products = [
       "currency": "EUR",
       "value": 21.99,
       "displayValue": "21.99"
+    },
+    review: {
+      current: 5,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -270,6 +360,11 @@ export const products = [
       "currency": "EUR",
       "value": 21.99,
       "displayValue": "21.99"
+    },
+    review: {
+      current: 5,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -284,6 +379,11 @@ export const products = [
       "currency": "EUR",
       "value": 18.5,
       "displayValue": "18.50"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -298,6 +398,11 @@ export const products = [
       "currency": "EUR",
       "value": 25,
       "displayValue": "25.00"
+    },
+    review: {
+      current: 4,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -312,6 +417,11 @@ export const products = [
       "currency": "EUR",
       "value": 19.99,
       "displayValue": "19.99"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -326,6 +436,11 @@ export const products = [
       "currency": "EUR",
       "value": 10,
       "displayValue": "10.00"
+    },
+    review: {
+      current: 4,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -340,6 +455,11 @@ export const products = [
       "currency": "EUR",
       "value": 18.95,
       "displayValue": "18.95"
+    },
+    review: {
+      current: 3,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -354,6 +474,11 @@ export const products = [
       "currency": "EUR",
       "value": 4.99,
       "displayValue": "4.99"
+    },
+    review: {
+      current: 2,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -368,6 +493,11 @@ export const products = [
       "currency": "EUR",
       "value": 16.99,
       "displayValue": "16.99"
+    },
+    review: {
+      current: 1,
+      min: 1,
+      max: 5,
     }
   },
   {
@@ -382,6 +512,11 @@ export const products = [
       "currency": "EUR",
       "value": 8.99,
       "displayValue": "8.99"
+    },
+    review: {
+      current: 1,
+      min: 1,
+      max: 5,
     }
   }
 ]

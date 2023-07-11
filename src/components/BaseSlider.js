@@ -21,7 +21,7 @@ const BaseSlider = ({title, data}) => {
           {
             data?.map(item => {
               return (
-                <BookCard key={item.id} image={item.image} title={item.title} author={item.author} price={item.price} />
+                <BookCard key={item.id} {...item} />
               )
             })
           }

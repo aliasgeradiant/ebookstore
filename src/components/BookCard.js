@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import {AiFillStar} from "react-icons/ai"
 
-const BookCard = ({image, author, title, price}) => {
+const BookCard = (item) => {
+  const {image, price, author, title, review} = item;
   let pr = Object.values(price);
 
   return (
@@ -8,11 +10,12 @@ const BookCard = ({image, author, title, price}) => {
         <img src={image} alt='' />
 
         <div className='content'>
-            <p className='author mt-2 mb-0'>By: {author}</p>
-            <h5>{title}</h5>
-            <span>
-                {`${pr[0] === "EUR" ? "€" : "$"} ${pr[1]}`}
-            </span>
+          <span>{[...Array(review.max)].map((star, i) => 
+            <AiFillStar key={i} style={{color: i + 1 <= review.current ? "gold" : "#D4D4D4"}} />
+          )}</span>
+          <p className='author mb-0'>By: {author}</p>
+          <h5>{title}</h5>
+          <span>{`${pr[0] === "EUR" ? "€" : "$"} ${pr[1]}`}</span>
         </div>
     </div>
   )
